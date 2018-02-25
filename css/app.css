@@ -73,3 +73,16 @@ span.about-sec {
   margin-bottom: 2%;
   text-align: center;
 }
+
+.result-table {
+  overflow: auto;
+  height: 29vh;
+  background-color: #e7ffd0;
+  box-shadow: 0 0 3px #6fe300;
+}
+
+.res {
+  font-weight: bolder;
+  line-height: 40px;
+  list-style-type: none;
+}

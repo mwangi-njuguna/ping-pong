@@ -60,3 +60,16 @@ span.about-sec {
   padding-top: 0;
   margin-top: 3%;
 }
+
+.form-group label {
+  font-weight: bolder;
+}
+
+.btn.btn-lg {
+  margin-top: 4%;
+  background-color: #3bd715;
+  color: #ffffff;
+  border-radius: 30px;
+  margin-bottom: 2%;
+  text-align: center;
+}

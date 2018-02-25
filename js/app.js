@@ -13,4 +13,5 @@ function pingPong(num) {
   };
   return myArray;
 };
-$(document).ready(function() {});
+$(document).ready(function() {
+      $("form#form-num").submit(function(event) {});

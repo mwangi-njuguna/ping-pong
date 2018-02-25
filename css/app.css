@@ -44,3 +44,19 @@ span.about-sec {
   border: 1px solid green;
   box-shadow: 0 0 4px 4px #ccc;
 }
+
+.main-content {
+  margin-left: 0;
+  padding: 5%;
+  right: 0;
+  width: 30%;
+  height: 45%;
+  float: right;
+}
+
+.main.result-content {
+  float: left;
+  height: 40vh;
+  padding-top: 0;
+  margin-top: 3%;
+}

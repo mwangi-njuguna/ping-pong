@@ -17,3 +17,30 @@ input {
   margin: 1%;
   text-align: center;
 }
+
+.aside-content {
+  padding: 2%;
+  float: left;
+  left: 0;
+  width: 40%;
+  height: 45%;
+  margin-right: 0;
+  padding-left: 6%;
+}
+
+span.instructions-sec {
+  overflow: auto;
+  text-align: left;
+}
+
+.instructions-sec li {
+  list-style-type: disc;
+  text-align: justify;
+}
+
+span.about-sec {
+  width: 80%;
+  height: 25%;
+  border: 1px solid green;
+  box-shadow: 0 0 4px 4px #ccc;
+}

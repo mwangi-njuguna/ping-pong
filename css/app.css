@@ -4,3 +4,16 @@
   font-size: 60px;
   box-shadow: 0 0 4px 4px #
 }
+
+.main {
+  padding: 2%;
+  margin: 4%;
+  margin-bottom: 0;
+  box-shadow: inset 0 0 15px #000;
+}
+
+input {
+  box-shadow: 0 0 3px 3px #68d100;
+  margin: 1%;
+  text-align: center;
+}

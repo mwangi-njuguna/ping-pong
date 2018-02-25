@@ -13,3 +13,4 @@ function pingPong(num) {
   };
   return myArray;
 };
+$(document).ready(function() {});

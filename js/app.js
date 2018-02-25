@@ -13,11 +13,14 @@ function pingPong(num) {
   };
   return myArray;
 };
+
 $(document).ready(function() {
-      $("form#form-num").submit(function(event) {
-        event.preventDefault();
-        $("li.res").empty();
-        var num = parseInt($("#number-input").val());
-        var derivedArray = pingPong(num) + '';
-        var splitArray = derivedArray.split(",").join("<br>");
-      });
+  $("form#form-num").submit(function(event) {
+    event.preventDefault();
+    $("li.res").empty();
+    var num = parseInt($("#number-input").val());
+    var derivedArray = pingPong(num) + '';
+    var splitArray = derivedArray.split(",").join("<br>");
+    $("div.result-table").addClass('res').append("<li class='res'>" + splitArray + "</li>");
+  });
+});
